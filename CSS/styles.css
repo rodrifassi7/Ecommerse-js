@@ -1,0 +1,42 @@
+body{
+    background-color:blanchedalmond;
+}
+.container{
+    padding-top: 30px;
+}
+
+h1{
+    text-align: center;
+}
+
+.LogoMarca {
+    margin: 0 1em;
+    overflow: hidden;
+    transition: transform .5s ease;
+    height: 100px;
+    width: 100px;
+    float: left;
+    border-radius: 150px;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  
+  .LogoMarca:hover {
+    transform: scale(1.4);
+  }
+
+
+.modal-title{
+    margin-left: 320px;
+    background-color: aqua;
+    text-align: center !important;
+}
+
+.m-3{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+}
+
+#carouselExampleControls{
+    margin-top:  50px;
+}
